@@ -1,0 +1,108 @@
+.property-card {
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.property-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #f0f0f0;
+  display: block;
+}
+
+.property-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.property-info h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #1a1a2e;
+}
+
+.property-location {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.property-price {
+  color: #1a1a2e;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+.property-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 4px 0;
+}
+
+.property-details span {
+  background-color: #f0f3ff;
+  color: #4f5fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.property-status {
+  display: inline-block;
+  width: fit-content;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.status-available {
+  background-color: #e6f9ee;
+  color: #1ba260;
+}
+
+.status-sold {
+  background-color: #fdeaea;
+  color: #d63333;
+}
+
+.status-rented {
+  background-color: #fff4e0;
+  color: #cc8a00;
+}
+
+.view-details-btn {
+  margin-top: 12px;
+  display: inline-block;
+  text-align: center;
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.view-details-btn:hover {
+  background-color: #4f9dff;
+}

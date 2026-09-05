@@ -1,0 +1,43 @@
+.service-details-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+.service-details-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  padding: 48px 40px;
+  text-align: center;
+}
+
+.service-icon.large {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.service-details-card h1 {
+  color: #1a1a2e;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.service-details-card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.back-link {
+  display: inline-block;
+  color: #4f9dff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

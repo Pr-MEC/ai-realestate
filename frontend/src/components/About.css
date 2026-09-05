@@ -1,0 +1,120 @@
+.about-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px 60px;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.about-hero p {
+  color: #666;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin: 60px 0;
+}
+
+.about-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  color: #1a1a2e;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 0.98rem;
+}
+
+.about-content img {
+  flex: 1;
+  width: 100%;
+  max-width: 480px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.about-values {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-values h2 {
+  color: #1a1a2e;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.value-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 32px 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.value-icon {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.value-card h3 {
+  color: #1a1a2e;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.value-card p {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 0 20px 40px;
+  }
+
+  .about-content,
+  .about-content.reverse {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-content img {
+    max-width: 100%;
+    height: 240px;
+  }
+}

@@ -1,0 +1,120 @@
+.contact {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2.2rem;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+}
+
+.contact > p {
+  color: #666;
+  font-size: 0.98rem;
+  margin: 8px 0;
+}
+
+/* Inquiry form styling (shared classes from InquiryForm component) */
+.inquiry-section {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+  padding: 40px 32px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.inquiry-section h2 {
+  color: #1a1a2e;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.inquiry-section > p {
+  color: #666;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.inquiry-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.inquiry-form input:focus,
+.inquiry-form textarea:focus {
+  outline: none;
+  border-color: #4f9dff;
+}
+
+.inquiry-form button {
+  padding: 12px;
+  background-color: #1a1a2e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.inquiry-form button:hover {
+  background-color: #4f9dff;
+}
+
+.inquiry-form button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.success-text {
+  color: #1ba260;
+  background: #e6f9ee;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.error-text {
+  color: #d63333;
+  background: #fdeaea;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 16px;
+  }
+
+  .inquiry-section {
+    padding: 28px 20px;
+  }
+}
